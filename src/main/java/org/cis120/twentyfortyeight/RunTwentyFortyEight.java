@@ -87,7 +87,7 @@ public class RunTwentyFortyEight implements Runnable {
 
         // ========================== Initiating Buttons ==========================
 
-        // Back
+        // Instruction
         instruction.addMouseListener(new MouseAdapter() {
             @Override
             public void mousePressed(MouseEvent e) {
@@ -186,6 +186,9 @@ public class RunTwentyFortyEight implements Runnable {
                     FRAME.add(gameMenuBar, BorderLayout.SOUTH);
 
                     gsm.setGameStarted(true);
+
+                    gsm.requestFocusInWindow();
+
                 } else {
                     JOptionPane.showMessageDialog(
                             null,
