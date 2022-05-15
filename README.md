@@ -1,4 +1,4 @@
-### CIS 120 Homework 9: Build Your Own Game
+### 2022 Spring CIS 120 Final Project
 
 ## Homework Instructions
 
